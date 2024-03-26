@@ -25,7 +25,7 @@ public class VerifyLoginTest extends FDABase {
     public void verifySuccessfulLogin() throws InterruptedException {
         Thread.sleep(5000);
         homePage.tapOnLoginButton();
-        loginPage.login("parthu.y@gmail.com","Pass@123");
+        loginPage.login("suhit@gmail.com","Pass@123");
         //orderPage.Order();
         orderPage.Item();
         orderPage.menuitem();

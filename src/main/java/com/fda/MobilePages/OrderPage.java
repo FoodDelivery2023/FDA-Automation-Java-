@@ -48,7 +48,7 @@ public class OrderPage {
         Thread.sleep(5000);
         System.out.println("..."+restlist.size());
         for(int i=0;i< restlist.size();i++){
-            if ((restlist.get(i).getText()).contains("Mehfil new")){
+            if ((restlist.get(i).getText()).contains("Mehfil")){
                 restlist.get(i).click();
             }
         }
@@ -97,7 +97,7 @@ public class OrderPage {
         System.out.println("..."+menulist.size());
         for(int i=0;i< menulist.size();i++){
             System.out.println("..."+menulist.get(i).getText());
-            if ((menulist.get(i).getText()).contains("CB")) {
+            if ((menulist.get(i).getText()).contains("Chicken Biryani")) {
                 Addbutton.click();
                 addSymbol.click();
                 break;
